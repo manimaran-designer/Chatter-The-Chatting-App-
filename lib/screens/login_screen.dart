@@ -54,7 +54,7 @@ class _LoginScreenState extends State<LoginScreen> {
               TextField(
                   obscureText: true,
                   textAlign: TextAlign.center,
-                  onChanged: (value) {
+                  onSubmitted: (value) {
                     password = value;
                   },
                   decoration: kTextFieldDecoration.copyWith(
